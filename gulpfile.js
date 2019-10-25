@@ -1,4 +1,5 @@
 var gulp = require('gulp'),  
+    //E KTHI K HAI
 	// pug = require('gulp-pug'),	
 	// browserSync = require('browser-sync'),
   // uglify = require('gulp-uglify'),
@@ -7,6 +8,7 @@ var gulp = require('gulp'),
 var cleanCSS = require('gulp-clean-css');
 
 // run this task by typing in gulp pug in CLI
+// E KENA BHELLAI
 gulp.task('build', function() {  
   gulp.src('static/src/css/**/*.css') 
     // .pipe(uglify())
@@ -29,4 +31,5 @@ gulp.task('build', function() {
 
 gulp.task('default', ['build'], function () {
     gulp.watch('static/src/**/*.*', ['build']);
+	//CjI
 });
